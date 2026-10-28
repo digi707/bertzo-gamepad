@@ -1,0 +1,144 @@
+/* BERTZO Xbox One skin - Gamepad Viewer editcss mode
+   URL: https://gamepadviewer.com/?p=1&s=1&editcss=YOUR_CSS_URL
+   Uses the .edit class added by Gamepad Viewer, not .custom. */
+
+.controller.xbox.edit,
+.controller.edit {
+    width: 750px !important;
+    height: 630px !important;
+    background-image: url("https://r.resimlink.com/HLtp05y9R.png") !important;
+    background-repeat: no-repeat !important;
+    background-size: 750px 630px !important;
+    background-position: center center !important;
+}
+
+.controller.xbox.edit.white,
+.controller.edit.white {
+    background-image: url("https://r.resimlink.com/HLtp05y9R.png") !important;
+}
+
+.controller.xbox.edit.disconnected,
+.controller.edit.disconnected {
+    background-image: url("https://r.resimlink.com/f8QoCSMkh1D.png") !important;
+}
+
+.controller.edit.disconnected div { display: none; }
+
+.controller.edit .triggers {
+    width: 446px !important;
+    height: 121px !important;
+    position: absolute !important;
+    left: 152px !important;
+}
+.controller.edit .trigger {
+    width: 88px !important;
+    height: 121px !important;
+    background-image: url("https://r.resimlink.com/miNfYLWk.png") !important;
+    opacity: 0;
+}
+.controller.edit .trigger.left { float: left; background-position: 0 0; }
+.controller.edit .trigger.right { float: right; transform: rotateY(180deg); }
+.controller.edit .bumper {
+    width: 170px !important;
+    height: 61px !important;
+    background-image: url("https://r.resimlink.com/cHBISrqlC.png") !important;
+    opacity: 0;
+}
+.controller.edit .bumpers {
+    position: absolute !important;
+    width: 536px !important;
+    height: 61px !important;
+    left: 107px !important;
+    top: 129px !important;
+}
+.controller.edit .bumper.pressed { opacity: 1; }
+.controller.edit .bumper.left { float: left; }
+.controller.edit .bumper.right { float: right; transform: rotateY(180deg); }
+.controller.edit .quadrant {
+    position: absolute !important;
+    background: none !important;
+    height: 45px !important;
+    width: 45px !important;
+    top: 258px !important;
+    left: 354px !important;
+    z-index: 0;
+}
+.controller.edit .p0 { transform: rotate(0deg); }
+.controller.edit .p1 { transform: rotate(90deg); }
+.controller.edit .p2 { transform: rotate(270deg); }
+.controller.edit .p3 { transform: rotate(180deg); }
+.controller.edit .arrows {
+    position: absolute !important;
+    width: 141px !important;
+    height: 33px !important;
+    top: 264px !important;
+    left: 306px !important;
+}
+.controller.edit .back,
+.controller.edit .start {
+    background-image: url("https://r.resimlink.com/laDVIKM.png") !important;
+    width: 33px !important;
+    height: 33px !important;
+    opacity: 0;
+}
+.controller.edit .back.pressed,
+.controller.edit .start.pressed { opacity: 1; }
+.controller.edit .back { float: left; }
+.controller.edit .start { background-position: 33px 0; float: right; }
+.controller.edit .abxy {
+    position: absolute !important;
+    width: 153px !important;
+    height: 156px !important;
+    top: 192px !important;
+    left: 488px !important;
+}
+.controller.edit .button {
+    position: absolute !important;
+    background-image: url("https://r.resimlink.com/_Movgmc7Qu.png") !important;
+    width: 48px !important;
+    height: 48px !important;
+}
+.controller.edit .button.pressed {
+    background-position-y: -48px;
+    margin-top: 5px;
+    opacity: 1;
+}
+.controller.edit .a { background-position: 0 0; top: 108px; left: 55px; }
+.controller.edit .b { background-position: -49px 0; top: 58px; right: 0; }
+.controller.edit .x { background-position: -98px 0; top: 58px; left: 4px; }
+.controller.edit .y { background-position: 48px 0; left: 55px; top: 7px; }
+.controller.edit .sticks {
+    position: absolute !important;
+    width: 371px !important;
+    height: 196px !important;
+    top: 239px !important;
+    left: 144px !important;
+}
+.controller.edit .stick {
+    position: absolute !important;
+    background-image: url("https://r.resimlink.com/0KWOXNvn.png") !important;
+    background-position: -85px 0;
+    height: 83px !important;
+    width: 83px !important;
+}
+.controller.edit .stick.pressed { background-position: 0 0; }
+.controller.edit .stick.left { top: 0; left: 0; }
+.controller.edit .stick.right { top: 113px; left: 288px; }
+.controller.edit .dpad {
+    position: absolute !important;
+    width: 110px !important;
+    height: 111px !important;
+    top: 345px !important;
+    left: 223px !important;
+}
+.controller.edit .face {
+    background-image: url("https://r.resimlink.com/pMVIBQRc.png") !important;
+    position: absolute !important;
+    opacity: 0;
+}
+.controller.edit .face.pressed { opacity: 1; }
+.controller.edit .face.up { background-position: 34px 0; left: 38px; top: 0; width: 34px; height: 56px; }
+.controller.edit .face.down { left: 38px; bottom: 0; width: 34px; height: 56px; }
+.controller.edit .face.left { background-position: 0 -93px; width: 55px; height: 35px; top: 38px; left: 0; }
+.controller.edit .face.right { background-position: 0 -57px; width: 55px; height: 35px; top: 38px; right: 0; }
+.controller.edit.half { margin-top: -315px; }
